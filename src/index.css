@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 
 body {
   font-family: "Roboto Slab", serif;
@@ -10,4 +10,14 @@ body {
 
 .slider {
   animation: slide 10s infinite;
+}
+
+@keyframes slide {
+  33% {
+    background: url("./images/Hero-01.jpg") no-repeat center cover;
+  }
+  66% {
+  }
+  100% {
+  }
 }
